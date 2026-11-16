@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-fuser = "0.13"
+fuser = "0.16"
 another_ext4 = { path = "..", features = ["fuser_root_inode"] }
 simple_logger = "4.3"
 log = "0.4"
